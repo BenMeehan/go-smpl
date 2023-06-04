@@ -1,8 +1,7 @@
 # Go Simple Configuration
 
-A simple method to use configurations in golang that gets the job done.
-
-It is inspired by the fact that most configrations are just simple key-value pairs, where value is mostly a string or an array.
+git 
+It is inspired by the fact that most configrations are just simple key-value pairs, which might change often. Instead of setting an ENV variable everytime, this project aims to get the configurations at runtime from a file or URL.
 
 ## Features
 
@@ -48,3 +47,5 @@ The file or URL (should support GET method) must have the configuration in the f
 SOMEKEY1:VALUE1
 SOMEKEY2:[ARRVALUE1,ARRVALUE2,ARRVALUE3,...]
 ```
+
+look at 'test' directory for examples.

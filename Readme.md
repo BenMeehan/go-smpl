@@ -5,10 +5,10 @@ It is inspired by the fact that most configrations are just simple key-value pai
 
 ## Features
 
-- Reads a file from a local path and extracts KEY:VALUE pairs.
-- Retrieves from a URL and extracts KEY:VALUE pairs.
+- Reads a file from a local path and extracts KEY : VALUE pairs.
+- Retrieves from a URL and extracts KEY : VALUE pairs.
 - Work with string and array values.
-- Simple syntax to access the KEY:VALUE pairs.
+- Simple syntax to access the KEY : VALUE pairs.
 
 ### Prerequisites
 
@@ -44,8 +44,8 @@ c.Geta["SomeKey"]
 The file or URL (should support GET method) must have the configuration in the following format
 
 ```
-SOMEKEY1:VALUE1
-SOMEKEY2:[ARRVALUE1,ARRVALUE2,ARRVALUE3,...]
+SOMEKEY1 : VALUE1
+SOMEKEY2 : [ARRVALUE1,ARRVALUE2,ARRVALUE3,...]
 ```
 
 look at 'test' directory for examples.

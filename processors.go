@@ -1,4 +1,4 @@
-package main
+package smpl
 
 import (
 	"errors"
@@ -9,7 +9,7 @@ func (c *Configuration) ProcessData(data string) error {
 	c.Get = make(map[string]string)
 	lines := strings.Split(data, "\n")
 	for _, line := range lines {
-		parts := strings.Split(line, ":")
+		parts := strings.Split(line, " : ")
 		if len(parts) == 2 {
 			key := strings.TrimSpace(parts[0])
 			value := strings.TrimSpace(parts[1])

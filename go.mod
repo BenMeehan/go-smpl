@@ -1,3 +1,3 @@
-module github.com/benmeehan111/go-smpl
+module github.com/benmeehan/go-smpl
 
 go 1.20

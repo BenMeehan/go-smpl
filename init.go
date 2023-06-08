@@ -1,4 +1,4 @@
-package main
+package smpl
 
 import (
 	"io/ioutil"

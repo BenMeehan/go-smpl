@@ -1,4 +1,4 @@
-package main
+package smpl
 
 type Configuration struct {
 	Get  map[string]string
